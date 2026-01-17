@@ -15,6 +15,9 @@ Can be used to:
 - Pay
 - Collect
 
+> [!NOTE]
+> This package aims to be an entry point for integrating UPI in general. If you're looking for CommonLibrary specifically, [52-1ab](https://52-1ab.github.io/) has published an independent implementation of it written in Go, with bindings for many languages. Check it out [here](https://github.com/52-1ab/cl)!
+
 ## Install
 
 ```sh
@@ -78,10 +81,13 @@ To install dependencies:
 bun install
 ```
 
-CLI:
-
+<!-- CLI:
 ```bash
 bun bin/run.js
-```
+``` -->
 
-This project was created using `bun init` in bun v1.0.30. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+## Writing PSP Clients
+
+To write a PSP client, you need to implement the `PSPClient` interface in [src/types.d.ts](src/types.d.ts).
+
+For an example, see the [MockPSP](src/psps/mock/index.ts) implementation.
