@@ -1,9 +1,3 @@
-# Custom
-
-# only until https://github.com/oven-sh/bun/issues/11863 is ready:
-bun.lockb
-
-#---
 # Based on https://raw.githubusercontent.com/github/gitignore/main/Node.gitignore
 
 # Logs

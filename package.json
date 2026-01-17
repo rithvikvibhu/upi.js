@@ -1,6 +1,6 @@
 {
   "name": "upi.js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A collection of tools to help integrate UPI",
   "author": "Rithvik Vibhu <https://keybase.io/rithvikvibhu>",
   "module": "index.ts",
